@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiyanne Garcia | My Developer Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff7fa;
+            color: #49313d;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #f8dce8, #fcecf2);
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            color: #a83f70;
+            font-size: 38px;
+        }
+
+        header p {
+            margin: 8px 0 20px;
+            font-size: 17px;
+        }
+
+        nav {
+            background-color: #b94f7c;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffe1ed;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 25px auto;
+            padding: 0 18px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 22px;
+            border-radius: 15px;
+            border: 1px solid #f2d5e1;
+            box-shadow: 0 3px 12px rgba(160, 80, 120, 0.08);
+        }
+
+        h2 {
+            color: #b94f7c;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #a83f70;
+            margin-bottom: 8px;
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #f4c4d8;
+            display: block;
+            margin: 15px auto;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        th, td {
+            border: 1px solid #e9b4ca;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f8dce8;
+            color: #873456;
+        }
+
+        footer {
+            background-color: #f4c4d8;
+            color: #66344a;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 29px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+                font-size: 14px;
+            }
+
+            section {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="home">
+        <h1>Jiyanne Garcia</h1>
+        <p>My Personal Developer Portfolio</p>
+        <p>Hello! I'm Jiyanne, an aspiring web developer
+        who enjoys learning and creating new things.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img src="profile.jpg"
+                 alt="Profile photo of Jiyanne Garcia"
+                 class="profile">
+
+            <p>
+                Hi! My name is Jiyanne Garcia, and I am a
+                2nd Year Information Technology student at
+                National University - Fairview. I am interested
+                in technology, web development, and learning
+                how websites and applications work. I enjoy
+                exploring new skills and improving my knowledge
+                through different school projects. My goal is to
+                become a skilled and responsible IT professional
+                in the future.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Technical Skills</h2>
+
+            <p>Here are some of the technologies and tools
+            I have learned:</p>
+
+            <ul>
+                <li>HTML - Creating webpage structures</li>
+                <li>CSS - Styling and designing websites</li>
+                <li>JavaScript - Adding interactive features</li>
+                <li>Python - Basic programming</li>
+                <li>SQL - Database management</li>
+                <li>Git and GitHub - Version control</li>
+                <li>Power Apps - Creating simple applications</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Educational Background</h2>
+
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Details</th>
+                </tr>
+
+                <tr>
+                    <td>School</td>
+                    <td>National University - Fairview</td>
+                </tr>
+
+                <tr>
+                    <td>Program</td>
+                    <td>Information Technology</td>
+                </tr>
+
+                <tr>
+                    <td>Year Level</td>
+                    <td>2nd Year College</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
